@@ -10,9 +10,8 @@
   },
   "devDependencies": {
     "@types/node": "^18",
+    "less": "^4.1.3",
     "nuxt": "^3.4.1",
-    "less": "^4.1.3"
-  },
-  "dependencies": {
+    "pug": "^3.0.2"
   }
 }

@@ -1,8 +1,8 @@
-<template>
-<div class="hello">pages/mycomponent.vue</div>
-<NuxtLink to="/">index</NuxtLink>
-<br>
-<NuxtLink to="/mycomponent2">Component2</NuxtLink>
+<template lang="pug">
+.hello pages/mycomponent.vue
+NuxtLink(to="/") index
+br
+NuxtLink(to="/mycomponent2") Component2
 </template>
 
 <style scoped lang="less">

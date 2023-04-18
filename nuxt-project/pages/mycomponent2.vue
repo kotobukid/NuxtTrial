@@ -1,17 +1,22 @@
-<template>
-<div class="component2">
-    <div class="hello">pages/mycomponent.vue</div>
-    <NuxtLink to="/">ホーム</NuxtLink>
-</div>
+<template lang="pug">
+.component2
+    .hello pages/mycomponent.vue
+    NuxtLink(to="/") ホーム
 </template>
 
 <style scoped lang="less">
 .component2 {
     background-color: black;
     color: white;
+    padding: 10px;
+
+    a {
+        color: lightblue;
+    }
+
+    .hello {
+        color: green;
+    }
 }
 
-.hello {
-    color: green;
-}
 </style>
