@@ -1,6 +1,7 @@
 type User = {
     id: number,
-    name: string
+    name: string,
+    age: number
 }
 
 export {

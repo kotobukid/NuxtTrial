@@ -22,14 +22,17 @@ table.users
     colgroup
         col(style="width: 100px;")
         col(style="width: 100px;")
+        col(style="width: 100px;")
     thead
         tr
             th ID
             th Name
+            th Age
     tbody
         tr(v-for="u in users")
             td {{ u.id }}
             td {{ u.name }}
+            td {{ u.age }}
 </template>
 
 <style scoped lang="less">
