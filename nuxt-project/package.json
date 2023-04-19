@@ -6,15 +6,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prisma": "prisma",
+    "prs": "prisma studio"
   },
   "devDependencies": {
     "@types/node": "^18",
     "less": "^4.1.3",
     "nuxt": "^3.4.1",
+    "prisma": "^4.13.0",
     "pug": "^3.0.2"
   },
   "dependencies": {
+    "@prisma/client": "^4.13.0",
     "axios": "^1.3.5"
   }
 }

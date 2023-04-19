@@ -2,3 +2,5 @@
 .idea
 .vscode
 */node_modules
+/nuxt-project/prisma/dev.db
+/nuxt-project/prisma/dev.db-journal
